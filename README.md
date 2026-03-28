@@ -8,4 +8,4 @@ My personal portfolio as a Computer Engineering student.
 - JavaScript
 
 ## Live Demo
-[View My Portfolio](https://omarrrahmeddd-portfolio.netlify.app)
+[View My Portfolio](https://omarahmedportfoliooo.netlify.app/)
