@@ -25,26 +25,36 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+    
 }
 .logo{
     text-decoration: none;
-    color: blue;    
+   color: rgb(51, 32, 113);  
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
+body.DarkMode .navigation a{
+    color: rgb(255, 255, 255);
+}
 .navigation a{
+      display: inline-block;
+    margin-left: 20px;
     text-decoration: none;
-    color: blue;    
- font-weight: 500;
-    font-size: 1.1em;
-    padding-left: 30px;
+   font-weight: 700;
+    font-size: 16px;
+    color: rgb(51, 32, 113);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 0.7s ease;
+}
+   .navigation a:hover,.navigation a.home{
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 124, 183);
+    
 }
 
-.navigation a:hover{
-    color: rgb(33, 22, 75);
- 
-}
+
 section{
     padding: 100px 200px; 
 }
